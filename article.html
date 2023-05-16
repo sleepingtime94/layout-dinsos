@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs Web Resmi Dinas Sosial Kabupaten Tapin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+        * {
+            font-family: 'Instrument Sans', sans-serif;
+        }
+
+        .footer {
+            margin-top: 1rem;
+            padding: 2rem;
+            color: #fff;
+            background: #1f9c49;
+        }
+
+        .navigation {
+            padding: 1rem;
+            background: #198754;
+        }
+
+        .navigation .dropdown-menu {
+            background: #198754;
+        }
+
+        .navigation .dropdown-item {
+            padding: 1rem !important;
+        }
+
+        .navigation .dropdown-item:hover {
+            background: #0f5031;
+        }
+
+        .navigation a {
+            color: #FFCC32 !important;
+        }
+
+        .article .card {
+            border: none !important;
+        }
+
+        .article a,
+        .breadlink a {
+            color: #198754;
+        }
+
+        .article-item {
+            margin-bottom: 2rem;
+        }
+
+        .menu-title {
+            padding: 1rem;
+            background: #ecfff2;
+        }
+
+        .breadlink a {
+            text-decoration: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navigation  -->
+    <nav class="navbar navbar-expand-lg navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/img3.png" alt="dinsos" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="#">Moto Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="#">Tupoksi</a></li>
+                            <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+                            <li><a class="dropdown-item" href="#">Penghargaan</a></li>
+                            <li><a class="dropdown-item" href="#">Perjanjian Kerjasama</a></li>
+                            <li><a class="dropdown-item" href="#">Petunjuk Teknis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Publikasi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Berita</a></li>
+                            <li><a class="dropdown-item" href="#">Agenda</a></li>
+                            <li><a class="dropdown-item" href="#">Pengumuman</a></li>
+                            <li><a class="dropdown-item" href="#">Galeri</a></li>
+                            <li><a class="dropdown-item" href="#">SAKIP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Informasi Pelayanan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Visi Misi Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Maklumat Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Struktur Pelayanan & Pengaduan</a></li>
+                            <li><a class="dropdown-item" href="#">Petugas Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">SK Pelayanan dan Pengaduan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Fasilitas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Layanan Umum</a></li>
+                            <li><a class="dropdown-item" href="#">Pelayanan Kelompok Khusus</a></li>
+                            <li><a class="dropdown-item" href="#">Keamanan & Keselamatan Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Layanan Ramah Kelompok Khusus</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Indeks Kepuasan Masyarakat
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">IKM 2022</a></li>
+                            <li><a class="dropdown-item" href="#">IKM 2023</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main content  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="content p-5">
+                    <div class="breadlink">
+                        <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+                            aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="#">Beranda</a></li>
+                                <li class="breadcrumb-item"><a href="#">Berita</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Qui quis blanditiis sint neque
+                                    repudiandae labore fuga</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="text-secondary small my-3">
+                        07 November 2022 12:57:48
+                    </div>
+                    <div class="fs-3">
+                        Pemuda Tapin Persembahkan Juara Umum Ke 4 Kalinya Kemah Bakti ke 33 Untuk Hari Jadi Kabupaten
+                        Tapin
+                    </div>
+                    <div class="text-center my-3">
+                        <img src="http://dinsos.profile.tapinkab.go.id/storage/assets/dinsos/post/thumb/aDAcPu6xLpaiXL66qpBTm2VSGpQm3Zpcja8io9c2.jpg"
+                            class="w-100" alt="">
+                    </div>
+                    <div class="my-3">
+                        Setelah tiga hari mengikuti berbagai kegiatan dan lomba dalam ajang Kemah Karya Bakti Wisata
+                        Karang Taruna (KKBWKT) ke-33 se-Provinsi Kalimantan Selatan. Karang Taruna Kabupaten Tapin
+                        berhasil kembali meraih juara umum. Perolehan juara umum ini menjadi ke empat kalinya di raih
+                        Kabupaten Tapin secara berturut-turut dalam Kemah Karya Bakti Wisata Karang Taruna (KKBWKT).
+                        Ketua Karang Taruna Kabupaten Tapin, Murtoyo mengatakan ada 17 regu karang taruna asal Kabupaten
+                        Tapin yang mengikuti kegiatan Kemah Karya Bakti Wisata Karang Taruna (KKBWKT) ke-33 se-Provinsi
+                        Kalimantan Selatan. “Selama kemah bakti, Karang Taruna Tapin mengikuti semua lomba yakni ada 12
+                        lomba,” Bebernya. Selama mengikuti lomba karang taruna berhasil meraih empat juara pertama
+                        yakni, Kemah terbaik, lomba serba ikan, mars karang taruna dan tarik tambang. Sedangkan untuk
+                        juara kedua yakni lomba serba ikan, stand usaha ekonomi produktif, dan busana karang taruna.
+                        Sedangkan juara ketiga untuk lomba asta karya, pentas seni, lacak keakraban, dan busana karang
+                        taruna. “Dari 12 lomba, empat diantaranya meraih juara pertama, tiga lomba juara kedua, dan
+                        empat lomba juara ketiga,” Bebernya. <br><br>
+                        Menurut Murtoyo, hasil raihan ini hadiah para pemuda/pemudi Tapin dalam rangka memeriahkan Hari
+                        Jadi Kabupaten Tapin ke-57. Terlebih piala juara umum ini nantinya akan secara permanen
+                        ditempatkan di Kabupaten Tapin dikarenakan karang taruna Tapin berhasil meraih juara umum selama
+                        empat kali berturut-turut. “Piala juara umum kami persembahan untuk Hari Jadi Kabupaten Tapin
+                        ke-57,” Terangnya. Sementara itu, Bupati Tapin HM Arifin Arpan menegaskan bahwa pemerintah
+                        Kabupaten Tapin akan terus mendukung kegiatan kepemudaan di daerah. Salah satunya adalah
+                        kegiatan kemah bakti karang taruna ini. “Kita akan selalu berupaya mendukung hal positif yang
+                        dilakukan pemuda Tapin,” Tegasnya. <br><br>
+                        Bupati Tapin HM Arifin Arpan juga mengucapkan selamat kepada Karang Taruna Kabupaten Tapin yang
+                        berhasil meraih juara umum dalam lomba Kemah Karya Bakti Wisata Karang Taruna (KKBWKT) ke-33
+                        se-Provinsi Kalimantan Selatan. Ini menjadi salah satu hadiah terbaik untuk Kabupaten Tapin.
+                    </div>
+
+                    <div class="my-5">
+                        <div class="sharethis-inline-share-buttons"></div>
+                    </div>
+
+                    <h5 class="fw-bold mt-5 mb-3">
+                        <i class="bi bi-newspaper mx-2"></i> Berita
+                        Lainnya
+                    </h5>
+                    <div class="article-item">
+                        <div class="card w-100 h-100">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/img6.jpeg" class="img-fluid rounded h-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <a href="#" class="card-title fs-4 fw-bold text-decoration-none">Lorem ipsum
+                                            dolor sit, amet consectetur adipisicing
+                                            elit.</a>
+                                        <div class="card-text">
+                                            <small class="text-secondary">
+                                                <i class="bi bi-clock"></i>
+                                                <span class="mx-2">12 Mei 2023 - 12:23 Wita</span>
+                                            </small>
+                                        </div>
+                                        <div class="card-text"> Quibusdam obcaecati tempora, modi et nesciunt
+                                            consectetur? Voluptates explicabo dolor voluptas eum voluptatibus
+                                            eveniet, fugit fuga recusandae neque ipsum aliquid non officia quia
+                                            dicta consectetur, rem commodi error molestias
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="article-item">
+                        <div class="card w-100 h-100">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="images/img7.jpeg" class="img-fluid rounded h-100" alt="...">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <a href="#" class="card-title fs-4 fw-bold text-decoration-none">
+                                            Reprehenderit blanditiis provident id labore
+                                        </a>
+                                        <div class="card-text">
+                                            <small class="text-secondary">
+                                                <i class="bi bi-clock"></i>
+                                                <span class="mx-2">12 Mei 2023 - 12:23 Wita</span>
+                                            </small>
+                                        </div>
+                                        <div class="card-text">
+                                            Tempora quisquam rerum, aspernatur enim nam iste
+                                            quos qui dolore, illo omnis similique? Incidunt modi provident ipsa,
+                                            cumque nam placeat perspiciatis. Optio ratione praesentium excepturi
+                                            provident saepe maxime earum!
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sidebar  -->
+            <div class="col-md-4 col-sm-12">
+                <div class="my-5">
+                    <div class="text-center p-2 rounded shadow">
+                        <h5 class="fw-bold p-1">Pintasan Menu</h5>
+                        <div class="mt-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-newspaper text-primary"></i><br>
+                                        Berita
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-image text-danger"></i><br>
+                                        Galeri
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-info-circle text-warning"></i><br>
+                                        Pengumuman
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-calendar3 text-success"></i><br>
+                                        Agenda
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/img8.jpeg" class="w-100" alt="banner">
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/img8.jpeg" class="w-100" alt="banner">
+                    </div>
+                    <div class="mt-5 text-center">
+                        <h5 class="fw-bold mb-4">Survei Kepuasan</h5>
+                        <p>Bagaimana tingkat kepuasan anda terhadap layanan kami? </p>
+                        <img src="https://dinsos.bengkaliskab.go.id/respon/puas.png" class="w-50" alt="">
+                        <img src="https://dinsos.bengkaliskab.go.id/respon/tidak_puas.png" class="w-50" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h4 class="fw-bold">Dinas Sosial Kabupaten Tapin</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Jl. Gubernur H. Abrani Sulaiman No. 129, Keluarahan Rantau Kiwa, Kecamatan Tapin Utara,
+                    Kabupaten
+                    Tapin, Provinsi Kalimantan Selatan
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5 class="fw-bold">Kontak Kami :</h5>
+                <p>
+                    <i class="bi bi-telephone-fill mx-2"></i> 0517-31239 <br>
+                    <i class="bi bi-whatsapp mx-2"></i> 0813-4869-7897 (SLRT SAPANTUN) <br>
+                    <i class="bi bi-envelope mx-2"></i> dinsos.tapinkab@gmail.com
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5 class="fw-bold">Sosial Media :</h5>
+                <p class="fs-1">
+                    <i class="bi bi-facebook mx-2"></i>
+                    <i class="bi bi-instagram mx-2"></i>
+                    <i class="bi bi-youtube mx-2"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript"
+        src="https://platform-api.sharethis.com/js/sharethis.js#property=646306c12ee2aa001976264c&product=inline-share-buttons&source=platform"
+        async="async"></script>
+</body>
+
+</html>

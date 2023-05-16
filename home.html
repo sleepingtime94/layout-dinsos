@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Situs Web Resmi Dinas Sosial Kabupaten Tapin</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+        @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+        * {
+            font-family: 'Instrument Sans', sans-serif;
+        }
+
+        .footer {
+            margin-top: 1rem;
+            padding: 2rem;
+            color: #fff;
+            background: #1f9c49;
+        }
+
+        .navigation {
+            padding: 1rem;
+            background: #198754;
+        }
+
+        .navigation .dropdown-menu {
+            background: #198754;
+        }
+
+        .navigation .dropdown-item {
+            padding: 1rem !important;
+        }
+
+        .navigation .dropdown-item:hover {
+            background: #0f5031;
+        }
+
+        .navigation a {
+            color: #FFCC32 !important;
+        }
+
+        .article .card {
+            border: none !important;
+        }
+
+        .article a {
+            color: #198754;
+        }
+
+        .article-item {
+            margin-bottom: 2rem;
+        }
+
+        .menu-title {
+            padding: 1rem;
+            background: #ecfff2;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navigation">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/img3.png" alt="dinsos" width="200">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="#">Moto Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Sejarah</a></li>
+                            <li><a class="dropdown-item" href="#">Tupoksi</a></li>
+                            <li><a class="dropdown-item" href="#">Struktur Organisasi</a></li>
+                            <li><a class="dropdown-item" href="#">Penghargaan</a></li>
+                            <li><a class="dropdown-item" href="#">Perjanjian Kerjasama</a></li>
+                            <li><a class="dropdown-item" href="#">Petunjuk Teknis</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Publikasi
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Berita</a></li>
+                            <li><a class="dropdown-item" href="#">Agenda</a></li>
+                            <li><a class="dropdown-item" href="#">Pengumuman</a></li>
+                            <li><a class="dropdown-item" href="#">Galeri</a></li>
+                            <li><a class="dropdown-item" href="#">SAKIP</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Informasi Pelayanan
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Visi Misi Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Maklumat Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Struktur Pelayanan & Pengaduan</a></li>
+                            <li><a class="dropdown-item" href="#">Petugas Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">SK Pelayanan dan Pengaduan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Fasilitas
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Layanan Umum</a></li>
+                            <li><a class="dropdown-item" href="#">Pelayanan Kelompok Khusus</a></li>
+                            <li><a class="dropdown-item" href="#">Keamanan & Keselamatan Pelayanan</a></li>
+                            <li><a class="dropdown-item" href="#">Layanan Ramah Kelompok Khusus</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown mx-2">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Indeks Kepuasan Masyarakat
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">IKM 2022</a></li>
+                            <li><a class="dropdown-item" href="#">IKM 2023</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Cari</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="slideshow" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="1000">
+                <img src="images/img1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="images/img2.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#slideshow" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#slideshow" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 col-sm-12">
+                <div class="content p-5">
+                    <div class="greeting my-5 text-center">
+                        <div class="fs-3 fw-bold mb-5">Sambutan Kepala Dinas</div>
+                        <div class="row text-center">
+                            <div class="col-md-6 col-sm-12">
+                                <img src="images/img4.png" class="w-75" alt="">
+                            </div>
+                            <div class="text-start mb-5 col-md-6 col-sm-12">
+                                Assalammualaikum Wr. Wb. <br>
+                                Selamat Datang di Website Dinas Sosial Kab. Tapin. Website ini dimaksudkan sebagai
+                                sarana
+                                publikasi untuk memberikan Informasi dan gambaran tentang Dinas Sosial Kabupaten Tapin,
+                                serta meningkatkan pelayanan kepada masyarakat dan Pemerintah untuk mengkases informasi.
+                                Melalui keberadaan website ini kiranya masyarakat dapat mengetahui seluruh informasi
+                                tentang
+                                kebijakan Pemerintah dan Kegiatan Dinas Sosial diberbagai wilayah di Kabupaten Tapin.
+                                <br>
+                                Kritik dan saran juga sangat Kami harapkan demi penyempurnaan website ini dimasa datang.
+                                Semoga keberadaan website ini memberikan manfaat bagi kita semua. Aamiin<br><br>
+                                <span class="text-decoration-underline fw-bold">Drs. H. Samsi, MM </span>
+                                <br>
+                                Kepala Dinas Sosial Kabupaten Tapin
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="article my-5">
+                        <h5 class="fw-bold mb-3 menu-title">
+                            <i class="bi bi-newspaper mx-2"></i> Berita
+                            Terkini
+                        </h5>
+                        <div class="article-item">
+                            <div class="card w-100 h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/img6.jpeg" class="img-fluid rounded h-100" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <a href="#" class="card-title fs-4 fw-bold text-decoration-none">Lorem ipsum
+                                                dolor sit, amet consectetur adipisicing
+                                                elit.</a>
+                                            <div class="card-text">
+                                                <small class="text-secondary">
+                                                    <i class="bi bi-clock"></i>
+                                                    <span class="mx-2">12 Mei 2023 - 12:23 Wita</span>
+                                                </small>
+                                            </div>
+                                            <div class="card-text"> Quibusdam obcaecati tempora, modi et nesciunt
+                                                consectetur? Voluptates explicabo dolor voluptas eum voluptatibus
+                                                eveniet, fugit fuga recusandae neque ipsum aliquid non officia quia
+                                                dicta consectetur, rem commodi error molestias
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="article-item">
+                            <div class="card w-100 h-100">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="images/img7.jpeg" class="img-fluid rounded h-100" alt="...">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <a href="#" class="card-title fs-4 fw-bold text-decoration-none">
+                                                Reprehenderit blanditiis provident id labore
+                                            </a>
+                                            <div class="card-text">
+                                                <small class="text-secondary">
+                                                    <i class="bi bi-clock"></i>
+                                                    <span class="mx-2">12 Mei 2023 - 12:23 Wita</span>
+                                                </small>
+                                            </div>
+                                            <div class="card-text">
+                                                Tempora quisquam rerum, aspernatur enim nam iste
+                                                quos qui dolore, illo omnis similique? Incidunt modi provident ipsa,
+                                                cumque nam placeat perspiciatis. Optio ratione praesentium excepturi
+                                                provident saepe maxime earum!
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-center p-2">
+                            <button class="btn btn-success">Selengkapnya</button>
+                        </div>
+                    </div>
+                    <div class="faq my-5">
+                        <h5 class="fw-bold menu-title">
+                            <i class="bi bi-question mx-2"></i> FAQ
+                        </h5>
+                        <div class="faq-item">
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                            aria-expanded="false" aria-controls="flush-collapseOne">
+                                            Aspernatur, dicta possimus inventore quos exercitationem delectus in minima
+                                            eaque veritatis?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur, dicta
+                                            possimus inventore quos exercitationem delectus in minima eaque veritatis?
+                                            Omnis perspiciatis cumque unde necessitatibus dolorem neque ex voluptas, ab
+                                            ullam, quos beatae expedita, quas quasi rem soluta nam! Numquam dolor beatae
+                                            quas vitae exercitationem sapiente quia nam eligendi optio aut.
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                            aria-expanded="false" aria-controls="flush-collapseTwo">
+                                            Amet consectetur omnis? Deserunt repellat praesentium reprehenderit eligendi
+                                            quibusdam?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid voluptatem
+                                            delectus esse quisquam placeat, odit doloribus, vero in reprehenderit, ullam
+                                            ratione cupiditate. Quisquam voluptatem suscipit dignissimos facere,
+                                            assumenda quidem doloribus ratione labore laborum et cupiditate quasi enim
+                                            dolore! Quaerat ipsum amet exercitationem reiciendis natus necessitatibus a
+                                            consequuntur? Iure, ab repellendus!
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#flush-collapseThree"
+                                            aria-expanded="false" aria-controls="flush-collapseThree">
+                                            Quam quibusdam veritatis, qui sapiente dolorem quae?
+                                        </button>
+                                    </h2>
+                                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                        data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis ipsum
+                                            quasi omnis consectetur molestiae earum recusandae asperiores, accusamus,
+                                            distinctio debitis minima, magnam dolorem? Temporibus itaque, consequuntur
+                                            qui impedit labore deserunt! Itaque unde praesentium voluptate quaerat
+                                            possimus, veritatis eos! Eveniet eius fugiat quam error id qui impedit
+                                            laboriosam debitis, cupiditate iure.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="gallery my-5">
+                        <h5 class="fw-bold menu-title">
+                            <i class="bi bi-image mx-2"></i> Galeri Kegiatan
+                        </h5>
+                        <div class="row row-cols-1 row-cols-md-2 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <img src="images/img5.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="images/img5.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="images/img5.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <img src="images/img5.jpg" class="card-img-top" alt="...">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- sidebar  -->
+            <div class="col-md-4 col-sm-12">
+                <div class="my-5">
+                    <div class="text-center p-2 rounded shadow">
+                        <h5 class="fw-bold p-1">Pintasan Menu</h5>
+                        <div class="mt-2">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-newspaper text-primary"></i><br>
+                                        Berita
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-image text-danger"></i><br>
+                                        Galeri
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-info-circle text-warning"></i><br>
+                                        Pengumuman
+                                    </button>
+                                </div>
+                                <div class="col-md-6">
+                                    <button class="w-100 my-1 btn p-3">
+                                        <i class="bi bi-calendar3 text-success"></i><br>
+                                        Agenda
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/img8.jpeg" class="w-100" alt="banner">
+                    </div>
+                    <div class="mt-5">
+                        <img src="images/img8.jpeg" class="w-100" alt="banner">
+                    </div>
+                    <div class="mt-5 text-center">
+                        <h5 class="fw-bold mb-4">Survei Kepuasan</h5>
+                        <p>Bagaimana tingkat kepuasan anda terhadap layanan kami? </p>
+                        <img src="https://dinsos.bengkaliskab.go.id/respon/puas.png" class="w-50" alt="">
+                        <img src="https://dinsos.bengkaliskab.go.id/respon/tidak_puas.png" class="w-50" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <h4 class="fw-bold">Dinas Sosial Kabupaten Tapin</h4>
+                <p>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    Jl. Gubernur H. Abrani Sulaiman No. 129, Keluarahan Rantau Kiwa, Kecamatan Tapin Utara,
+                    Kabupaten
+                    Tapin, Provinsi Kalimantan Selatan
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5 class="fw-bold">Kontak Kami :</h5>
+                <p>
+                    <i class="bi bi-telephone-fill mx-2"></i> 0517-31239 <br>
+                    <i class="bi bi-whatsapp mx-2"></i> 0813-4869-7897 (SLRT SAPANTUN) <br>
+                    <i class="bi bi-envelope mx-2"></i> dinsos.tapinkab@gmail.com
+                </p>
+            </div>
+            <div class="col-md-3 col-sm-12">
+                <h5 class="fw-bold">Sosial Media :</h5>
+                <p class="fs-1">
+                    <i class="bi bi-facebook mx-2"></i>
+                    <i class="bi bi-instagram mx-2"></i>
+                    <i class="bi bi-youtube mx-2"></i>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
